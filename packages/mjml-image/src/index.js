@@ -148,7 +148,7 @@ export default class MjImage extends BodyComponent {
           role: 'presentation',
           style: 'table',
           class:
-            this.getAttribute('fluid-on-mobile') === 'true'
+            this.getAttribute('fluid-on-mobile') === 'yes'
               ? 'full-width-mobile'
               : null,
         })}
@@ -158,7 +158,7 @@ export default class MjImage extends BodyComponent {
             <td ${this.htmlAttributes({
               style: 'td',
               class:
-                this.getAttribute('fluid-on-mobile') === 'true'
+                this.getAttribute('fluid-on-mobile') === 'yes'
                   ? 'full-width-mobile'
                   : null,
             })}>
